@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: ReplicaSet
 metadata:
-  name: myapp-deployment
+  name: myapp-replicaset
   labels:
     app: myapp
     type: front-end
@@ -11,6 +11,7 @@ spec:
       name: myapp-pod
       labels:
         app: myapp
+        type: front-end # the matchLabels selector match this  label
     spec:
       containers:
         - name: nginx
