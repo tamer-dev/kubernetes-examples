@@ -22,6 +22,14 @@ To get started with the examples in this repository, you will need:
 - A Kubernetes cluster (you can use Minikube, Kind, or a managed service like GKE, EKS, or AKS)
 - `kubectl` command-line tool installed and configured to interact with your cluster
 
+## Prerequisites
+
+Before using the examples, ensure you have the following:
+
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) installed
+- Access to a Kubernetes cluster
+- Basic knowledge of Kubernetes concepts (Pods, Services, Deployments, etc.)
+
 ## Examples
 
 This repository contains the following examples:
