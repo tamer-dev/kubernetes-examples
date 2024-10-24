@@ -54,8 +54,7 @@ To apply any of the examples, navigate to the example's directory and run:
 
 ```bash
 kubectl apply -f <example-file.yaml>
-
-
+```
 
 ## Contributing
 
